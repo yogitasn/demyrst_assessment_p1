@@ -1,6 +1,6 @@
 # demyrst_assessment_p1
 
-## Parse fixed width file
+## Problem1: Parse fixed width file
 - Generate a fixed width file using the provided spec.
 - Implement a parser that can parse the fixed width file and generate a csv file.
 - DO NOT use pre built python libraries like pandas for parsing. You can use a library to write out a csv file (If you feel like)
@@ -11,7 +11,7 @@
 
 ## Project Name
 # Overview
-This project involves using Docker to build and run a containerized application. Below are the steps to build the Docker image, run the container, and interact with it.
+This project utilizes Docker to build and run a containerized application for generating a fixed-width file based on the provided specification. The following steps outline how to build the Docker image, execute the container, and interact with it.
 
 ## Prerequisites
 Docker installed on your machine
@@ -21,6 +21,7 @@ Basic understanding of Docker commands
 # 1. Build the Docker Image
 
 To build the Docker image for data parsing, use the following command:
+
 ``` docker build -t parser_clean . ```
 
 This command builds the Docker image and tags it as parser_clean
@@ -62,6 +63,7 @@ This command does the following:
 
 ## Notes
 * Ensure Docker is installed and running on your machine before executing these commands.
+* `output.csv` starts as an empty file. On a local machine, the Python script automatically creates and writes to this file. However, when running the script inside a Docker container, the file is not created automatically. Therefore, you need to manually create an empty `output.csv` file before running the script in the Docker container. The script will then write the results to this file as expected. Please refer to the screenshot for the output results in the file.
 * Adjust file paths (C:/demyrst_assessment_p1/) according to your local setup.
 * Using --rm ensures that the container is cleaned up after execution, which helps in managing disk space and container clutter.
 
