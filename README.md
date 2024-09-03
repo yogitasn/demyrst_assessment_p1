@@ -11,7 +11,7 @@
 
 ## Project Name
 # Overview
-This project involves using Docker to build and run a containerized application. Below are the steps to build the Docker image, run the container, and interact with it.
+This project utilizes Docker to build and run a containerized application for generating a fixed-width file based on the provided specification. The following steps outline how to build the Docker image, execute the container, and interact with it.
 
 ## Prerequisites
 Docker installed on your machine
