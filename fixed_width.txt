@@ -1,0 +1,3 @@
+Alice  New York   30  1  Developer     Senior   1st Avenue     New York City      NY         USA          
+Bob    Los Angeles25  2  Designer      Junior   2nd Street      Los Angeles       CA         USA          
+CharlieChicago   35  3  Engineer      Mid      3rd Boulevard    Chicago           IL         USA          
